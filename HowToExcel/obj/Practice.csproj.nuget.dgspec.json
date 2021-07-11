@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\practice\\Practice\\HowToExcel\\Practice.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\practice\\Practice\\Practice\\HowToExcel\\Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\practice\\Practice\\HowToExcel\\Practice.csproj": {
+    "C:\\Users\\Admin\\Desktop\\practice\\Practice\\Practice\\HowToExcel\\Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\practice\\Practice\\HowToExcel\\Practice.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\practice\\Practice\\Practice\\HowToExcel\\Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\practice\\Practice\\HowToExcel\\Practice.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\practice\\Practice\\Practice\\HowToExcel\\Practice.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\practice\\Practice\\HowToExcel\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\practice\\Practice\\Practice\\HowToExcel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

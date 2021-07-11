@@ -3,8 +3,8 @@ namespace Practice
 {
     public class DataClass
     {
-        public Contracter Contracter { set; get; }
-        public DataItem[] History { set; get; }
+        public Contracter[] Contracter { set; get; }
+        public DataItem[] Data { set; get; }
     }
     
     public class Contracter
