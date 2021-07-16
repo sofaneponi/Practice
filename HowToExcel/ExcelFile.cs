@@ -6,7 +6,7 @@ namespace Practice
 {
     public class ExcelFile
     {
-        public byte[] Generate(DataClass report)
+        public byte[] Generate(Dataset report)
         {
             var package = new ExcelPackage();
 

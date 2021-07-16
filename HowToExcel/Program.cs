@@ -17,12 +17,12 @@ namespace Practice
 
 
             List<Contracter> ListCont = new List<Contracter>();
-            List<DataItem> ListTask = new List<DataItem>();
+            List<Tasks> ListTask = new List<Tasks>();
 
             ListCont.AddRange(reportData.Contracter);
             ListTask.AddRange(reportData.Data);
 
-            Console.WriteLine("List of Contractors\n");
+            Console.WriteLine("List of ListItems\n");
             foreach (var item in ListCont)
                 if (item != null)
                     Console.WriteLine("Contractor: {0}    \tRate Per Hour: {1}     \tAvailabality: {2}", item.Name, item.RatePerHour, item.Availabality);

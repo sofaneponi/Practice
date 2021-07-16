@@ -1,25 +1,25 @@
-﻿using System;
-
-namespace Practice
+﻿namespace Practice
 {
     public class Dataset
     {
-        public DataClass GetReport()
+        public Contracter[] Contracter { set; get; }
+        public Tasks[] Data { set; get; }
+        public Dataset GetReport()
         {
-            return new DataClass
+            return new Dataset
             {
                 Data = new []
                 {
-                    new DataItem{ Task = "Stroke", Volume = 10, Term = 2, Budget = 20},
-                    new DataItem{ Task = "Feed", Volume = 6, Term = 2, Budget = 40},
-                    new DataItem{ Task = "Take a walk", Volume = 30, Term = 4, Budget = 20},
-                    new DataItem{ Task = "Combing", Volume = 10, Term = 1, Budget = 20},
-                    new DataItem{ Task = "To wash", Volume = 30, Term = 5, Budget = 40},
-                    new DataItem{ Task = "Cut the cat", Volume = 20, Term = 5, Budget = 20},
-                    new DataItem{ Task = "Make friends with other pets", Volume = 20, Term = 2, Budget = 50},
-                    new DataItem{ Task = "Teach the team giva a paw", Volume = 15, Term = 4, Budget = 40},
-                    new DataItem{ Task = "Teach the team sit", Volume = 10, Term = 3, Budget = 30},
-                    new DataItem{ Task = "Teach the team wait", Volume = 10, Term = 4, Budget = 30},
+                    new Tasks{ Task = "Stroke", Volume = 10, Term = 2, Budget = 20},
+                    new Tasks{ Task = "Feed", Volume = 6, Term = 2, Budget = 40},
+                    new Tasks{ Task = "Take a walk", Volume = 30, Term = 4, Budget = 20},
+                    new Tasks{ Task = "Combing", Volume = 10, Term = 1, Budget = 20},
+                    new Tasks{ Task = "To wash", Volume = 30, Term = 5, Budget = 40},
+                    new Tasks{ Task = "Cut the cat", Volume = 20, Term = 5, Budget = 20},
+                    new Tasks{ Task = "Make friends with other pets", Volume = 20, Term = 2, Budget = 50},
+                    new Tasks{ Task = "Teach the team giva a paw", Volume = 15, Term = 4, Budget = 40},
+                    new Tasks{ Task = "Teach the team sit", Volume = 10, Term = 3, Budget = 30},
+                    new Tasks{ Task = "Teach the team wait", Volume = 10, Term = 4, Budget = 30},
                 },
                 Contracter = new[]
                 {
