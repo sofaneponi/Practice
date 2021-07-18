@@ -38,6 +38,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.4.21, )"
+            },
             "EPPlus": {
               "target": "Package",
               "version": "[4.5.3.3, )"
